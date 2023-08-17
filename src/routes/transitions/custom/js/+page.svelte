@@ -31,8 +31,8 @@
 
 		return {
 			duration,
-			tick: (t) => {
-				const i = Math.trunc(text.length * t)
+			tick: (u) => {
+				const i = Math.trunc(text.length * u)
 				node.textContent = text.slice(0, i)
 			}
 		}
@@ -49,7 +49,7 @@
 		on:introend={pause}
 		class="text"
 	>
-		“There are no mistakes, only happy accidents.”
+		Welcome to Gravitate 
 	</p>
 </Animate>
 

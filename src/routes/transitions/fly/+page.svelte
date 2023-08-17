@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { fly } from 'svelte/transition'
-	import { backOut } from 'svelte/easing'
+	import { backOut, cubicOut } from 'svelte/easing'
 
 	import Animate from '$lib/animate.svelte'
 
